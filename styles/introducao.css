@@ -71,3 +71,59 @@
   justify-content: center;
   padding: 120px;
 }
+
+@media (max-width: 1500px) {
+  .introducao-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+  }
+
+  .container-img {
+    justify-content: center;
+  }
+
+  .container-h1_p {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .h1_p h1 {
+    font-size: 1.75rem;
+  }
+
+  .h1_p p {
+    font-size: 1.25rem;
+  }
+}
+
+/* Responsivo para smartphones */
+@media (max-width: 1224px) {
+  .introducao-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introducao-foto {
+    width: 200px;
+    height: 200px;
+  }
+
+  .h1_p h1 {
+    font-size: 1.5rem;
+  }
+
+  .h1_p p {
+    font-size: 1.15rem;
+  }
+
+  .container-redes_sociais img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .container-seta {
+    padding: 10px;
+  }
+}
