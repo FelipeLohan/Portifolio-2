@@ -1,0 +1,45 @@
+.introducao {
+  max-width: 1920px;
+  margin: auto;
+  background-color: #151515;
+  height: 675px;
+}
+
+.introducao-foto {
+  width: 241px;
+  height: 237px;
+}
+
+.introducao-container {
+  
+  display: grid;
+  grid-template-columns: 241px 600px;
+  justify-content: center;
+}
+
+.container-img {
+  display: flex;
+}
+
+.container-h1_p {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.container-h1_p img {
+  display: inline-block;
+}
+
+.h1_p {
+  max-width: 100%;
+  font-size: 24px;
+  width: 600px;
+  height: 105px;
+}
+
+.container-redes_sociais img {
+  width: 60px;
+  height: 60px;
+}
