@@ -3,6 +3,7 @@
   margin: auto;
   background-color: #151515;
   height: 675px;
+  color: #c2c2c2;
 }
 
 .introducao-foto {
@@ -11,21 +12,22 @@
 }
 
 .introducao-container {
-  
   display: grid;
-  grid-template-columns: 241px 600px;
+  grid-template-columns: 300px 1250px;
+  grid-template-rows: 1fr 1fr;
   justify-content: center;
 }
 
 .container-img {
   display: flex;
+  justify-content: end;
 }
 
 .container-h1_p {
   display: flex;
   max-width: 100%;
   justify-content: center;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 .container-h1_p img {
@@ -35,11 +37,37 @@
 .h1_p {
   max-width: 100%;
   font-size: 24px;
-  width: 600px;
+  width: 1250px;
   height: 105px;
 }
 
+.h1_p h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.h1_p p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.h1_p span {
+  color: #fff;
+}
+
 .container-redes_sociais img {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
+}
+
+.container-redes_sociais img {
+  background-color: #c2c2c2;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.container-seta {
+  display: flex;
+  justify-content: center;
+  padding: 120px;
 }
